@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Crypto Market Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Crypto Market Data Tracker</h1>
+  </header>
+
+  <div class="controls">
+    <input type="search" id="searchInput" placeholder="Search By Name or Symbol" aria-label="Search cryptocurrencies by name or symbol">
+    <button id="searchBtn">Search</button>
+    <button id="sortMarketCapBtn">Sort By Mkt Cap</button>
+    <button id="sortChangeBtn">Sort by % Change</button>
+  </div>
+
+  <div class="table-container">
+    <table id="cryptoTable">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Symbol</th>
+          <th>Price</th>
+          <th>% Change</th>
+          <th>Total Volume</th>
+          <th>Market Cap</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data inserted by JS -->
+      </tbody>
+    </table>
+  </div>
+
+<footer>
+  © 2025 Crypto Market Data Tracker - Sohel Kureshi
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
